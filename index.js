@@ -19,7 +19,7 @@ const port = process.env.PORT || 8000;
 // }
 
 const corsOptions = {
-  origin: ['http://localhost:3000'], // Specify trusted origin(s)
+  origin: '*', // Specify trusted origin(s)
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   credentials: true,
 };
