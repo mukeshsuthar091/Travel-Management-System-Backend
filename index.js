@@ -19,7 +19,7 @@ const port = process.env.PORT || 8000;
 // }
 
 const corsOptions = {
-  origin: '*', // Specify trusted origin(s)
+  origin: ["https://6620c1560367441056207a0c--boisterous-cobbler-39a263.netlify.app"], // Specify trusted origin(s)
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   credentials: true,
 };
